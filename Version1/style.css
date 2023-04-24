@@ -1,0 +1,53 @@
+body {
+    background-color: rgb(85, 85, 85);
+  }
+
+  h1{
+    color: white;
+  }
+  
+button{
+    height: 120px;
+    width: 120px;
+    float:center;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size:24pt;
+    font-weight:600;
+    border-style: solid;
+    border-color: rgb(46, 46, 46);
+    border-width: 4px;
+    border-radius: 12px;
+
+  }
+  
+  button:hover{
+    float:center;
+    background: rgb(187, 187, 187);
+    color: rgb(255, 255, 255);
+    font-family: bungee, sans-serif;
+    cursor: pointer;
+  }
+
+#display{
+    background-color: white;
+    width: 460px;
+    height: 120px;
+    font-size: 24pt;
+    border-style: solid;
+    border-color: rgb(48, 48, 48);
+    border-width: 8px;
+    border-radius: 12px;
+}
+#mode{
+    width: 480px;
+    height: 120px;
+    background-color: rgb(255, 255, 255);
+    border: black 1px solid;
+    font-size: 24pt;
+}
+
+#info{
+    margin-top: 10px;
+}
+
